@@ -4,6 +4,10 @@ article,aside,details,figcaption,figure,footer,header,.bottom-action,hgroup,main
 canvas,video{display:inline-block}
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 body{margin:0}
+#wbox{background:#CECECE url(http://i35.servimg.com/u/f35/18/91/53/88/dk_loa10.gif) no-repeat center center;cursor:wait;height:100%;position:fixed;width:100%;opacity:.9;left:0;overflow:hidden;top:0;z-index:999}
+.main-inf{height:60px;background:#525252 url(http://i35.servimg.com/u/f35/18/91/53/88/devoop10.png) 0 0 repeat;position:relative;margin-top:10px}
+.img-head img{height:214px;width:100%}
+.main-tool{padding:10px;background-color:#fff}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
 h1{font-size:2em;margin:.67em 0}
@@ -254,7 +258,7 @@ h2.pts-head{background:#4080FF;color:#fff;margin:0;padding:6px 10px;font-size:20
 div.borderwrap{background-color:#fff;border:1px solid #545454;margin-bottom:10px}
 .head-event{margin-top:122px;height:214px;background-color:#369fcf}
 .zzPoll h3{font-size:16px;position:relative;background:#ddd;padding:10px;margin:0}
-.zzPoll ul{list-style:none outside none;padding:14px 10px 0}
+.zzPoll ul{list-style:none outside none;padding:14px 10px 0;background:rgba(255,166,166,0) url(http://i35.servimg.com/u/f35/18/91/53/88/backgr10.png) 0 0 repeat;margin-bottom:0}
 .zzPoll li,#messedit{position:relative;line-height:30px;height:30px}
 #poll_result .poll_t{position:absolute;width:13%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;left:0;top:0}
 #poll_result .poll_m{height:25px;margin-left:13%;width:50%;float:left}
@@ -279,3 +283,7 @@ span.statistics-post:hover{cursor:pointer;color:#369FCF;border:1px solid #369FCF
 span.id-posts{border:1px solid #0069FF;padding:3px 1px 3px 5px;margin-right:5px}
 a.id-post{background:#FFCF9D;padding:2px 5px;color:#0069FF;margin-left:6px}
 i.fa.fa-thumbs-o-up{padding-right:5px}
+span.update{color:#fff;font-size:20px;text-transform:uppercase;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;padding:10px;line-height:60px;background:#369FCF;margin:0 10px}
+span.time{background:#A58B0A;padding:9px 10px}
+span.date{background:#4A9000;padding:9px 10px}
+span.utc{background:#904300;padding:9px 10px}
